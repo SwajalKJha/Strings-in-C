@@ -1,0 +1,63 @@
+Q1: Implement your own string length finding program, print the length of the
+given string.
+(man strlen for reference)
+Q2: Implement your own string copy function.
+(man strcpy for reference)
+Q3: Implement your own string comparison function. Which can compare two
+strings and tell whether the two strings are same or not.
+(man strcmp for reference)
+Once question 1,2,3, are completed, using the same functions that you have designed,
+implement question 4
+Q4: Write a program wherein, you will be taking input in array1 and based on the
+size of array1 you need to copy the data of array1 into array2 of bigger size:
+char array1[20] = “CDAC-ACTS-PUNE”;
+char array2[30];
+Output should appear as:
+printf(“array1: %s”, array1); - --> CDAC-ACTS-PUNE
+printf(“array2: %s”, array2); - --> CDAC-ACTS-PUNE
+Q5: Implement your own string concatenation function.
+(man strcat for reference)
+Q6: Write a C program to reverse the string “Welcome to CDAC Pune”, using array
+notation and loops.
+Q7: Write a C program to capture Alphabets from a given strings of mixed
+alphabets, numeric and special characters. Store the captured data in another array.
+Example: array 1: “23w%#e$$lco--,me”
+Output in array2: “welcome”
+Q8: Write a C program to check the first word of provided string to check whether
+the first alphabet is capital or small, in case the first letter is small, then change it to
+capital. Also print the new string at the end of program along with the number of
+modifications done on the string.
+Example: string: “hello Everyone, how are you Doing”
+Expected output:
+After conversion new string is: “Hello Everyone, How Are You Doing”
+Modifications performed: 4
+
+Q9: Write a C program to take input from the user for the first name of user, once
+input is taken, check for any unwanted characters in the name (special characters or
+numbers) in the name.
+Example:
+input: cdac output = Name is “cdac”
+Input: @cdac12 output = incorrect name, try again,
+If incorrect input is there, take the input again till the time, user has entered correct
+name as per requirements.
+Q10. Implement your own function to convert a string having only digits into an
+integer and vice versa.
+Q11. Write a c program to find sum & avg of command line arguments.
+Q12: Define your own iterative functions for
+(using array notation as well as exclusively using pointers)
+a) finding first occurrence of given character
+b) finding last occurrence of given character
+c) counting number of occurrences of a given character
+d) finding a substring in a main string
+f) Whether a string starts or ends with a particular sub string
+Q13. Perform the following operations using sprintf
+a) concatenation of two strings
+b) copying one string to other
+c) length of a string
+Q14. Explore the following functions used for raw memory operations. memcpy,
+memcmp, memset, bzero
+Q15. Implement generic swap function (which swap variables of any type,Hint:-
+memcpy)
+Q16. Write a program to copy one array from other using memcpy
+Q17. Convert the string in a.b.c.d format into 32 bit unsigned integer
+(use pointer operations for packing purpose)
